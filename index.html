@@ -1,11 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Hi! there
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f8f5ef" />
+    <meta name="description" content="Bappaditya Mandal is a Senior Software Engineer in Bengaluru, building backend systems, cloud infrastructure, and thoughtful AI tools." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bappaditya Mandal — Software Engineer" />
+    <meta property="og:description" content="A little about me, what I build, and the work I care about." />
+    <meta property="og:url" content="https://vickeymandal.github.io/" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://vickeymandal.github.io/" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Bappaditya Mandal — Software Engineer</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="home">
+      <div class="container header-inner">
+        <a class="wordmark" href="#home" aria-label="Bappaditya Mandal, back to top">bappaditya<span>.</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav" id="primary-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Journey</a>
+          <a href="#work">Things I’ve built</a>
+          <a href="#skills">Toolkit</a>
+          <a class="nav-contact" href="#contact">Say hello <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero container" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">A NOTE FROM BENGALURU, INDIA <span aria-hidden="true">✳</span></p>
+          <h1 id="hero-title">Hi, I’m<br /><em class="hero-name">Bappaditya.</em></h1>
+          <p class="hero-nickname"><span aria-hidden="true">↳</span> You can call me <strong>Vickey</strong> — fewer syllables, less guesswork.</p>
+          <p class="hero-lead">I like finding the knot in a complicated system — and untangling it.</p>
+          <p class="hero-description">I’m a Senior Software Engineer at Broadridge, working across backend development, cloud infrastructure, and AI-powered tools in fintech.</p>
+          <div class="hero-links">
+            <a class="text-link" href="#work">See what I’ve been building <span aria-hidden="true">↗</span></a>
+            <a class="text-link secondary-link" href="mailto:mandalvickey@gmail.com">Drop me a note <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art" role="img" aria-label="Playful illustrated notes about engineering and curiosity">
+          <div class="art-sun" aria-hidden="true"></div>
+          <div class="art-dots" aria-hidden="true"></div>
+          <div class="art-note art-note-code" aria-hidden="true"><span>FROM MY DESK / 001</span><span>think → build → learn<span class="code-cursor">_</span></span></div>
+          <div class="art-paper" aria-hidden="true">
+            <div class="art-tape" aria-hidden="true"></div>
+            <span class="art-topline">HELLO, WORLD! <span>↗</span></span>
+            <div class="art-monogram">b<span>m</span><i>.</i></div>
+            <span class="art-rule"></span>
+            <p>engineer by profession.<br /><em>curious by nature.</em></p>
+            <span class="art-bottomline">BENGALURU · INDIA</span>
+          </div>
+          <div class="art-note art-note-small" aria-hidden="true"><span>THE FUN PART?</span><strong>figuring it out <span>↗</span></strong></div>
+          <span class="art-spark art-spark-one" aria-hidden="true">✳</span>
+          <span class="art-spark art-spark-two" aria-hidden="true">✳</span>
+        </div>
+      </section>
+
+      <section class="section about-section container" id="about" aria-labelledby="about-title">
+        <div class="section-label"><span>01</span> / A LITTLE ABOUT ME</div>
+        <div class="section-body about-body">
+          <h2 id="about-title">I like the work <em>behind</em> the work.</h2>
+          <p>I’m interested in what happens after the code is written: how a job behaves at scale, whether a deployment can be repeated, and where a person still has to step in to do something a system should handle.</p>
+          <p>Working in fintech has made those questions practical. There’s usually someone waiting on the other end of a report, a file, or a decision. The little details matter because they add up for that person.</p>
+          <p>Lately I’ve been thinking about how to design distributed systems that stay understandable as they grow, and where AI genuinely removes busywork rather than adding to it.</p>
+        </div>
+      </section>
+
+      <section class="section experience-section" id="experience" aria-labelledby="experience-title">
+        <div class="container section-layout">
+          <div class="section-label"><span>02</span> / MY JOURNEY</div>
+          <div class="section-body">
+            <h2 id="experience-title">Growing through <em>building.</em></h2>
+            <p class="section-intro">I started as an intern at Broadridge in 2022. Each role has widened the view: from getting infrastructure ready, to building services, to thinking about the whole system.</p>
+            <div class="timeline">
+              <article class="timeline-item"><div class="timeline-date">2026 — Now</div><div><h3>Senior Software Engineer</h3><p class="company">Broadridge Financial Solutions</p><p>Taking a broader view of architecture, reliability, and the trade-offs that come with systems in production.</p></div></article>
+              <article class="timeline-item"><div class="timeline-date">2023 — 2026</div><div><h3>Software Engineer</h3><p class="company">Broadridge Financial Solutions</p><p>Moved from infrastructure work into building and improving services and workflows across the stack.</p></div></article>
+              <article class="timeline-item"><div class="timeline-date">2022 — 2023</div><div><h3>Software Engineer Intern</h3><p class="company">Broadridge Financial Solutions</p><p>Started with infrastructure automation and client onboarding, learning how software gets deployed and operated.</p></div></article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section work-section container" id="work" aria-labelledby="work-title">
+        <div class="section-label"><span>03</span> / THINGS I’VE BUILT</div>
+        <div class="section-body">
+          <h2 id="work-title">A few stories from <em>the work.</em></h2>
+          <p class="section-intro">Much of my day-to-day work isn’t public. Here are the problems behind a few things I’ve worked on.</p>
+          <div class="story-list">
+            <article class="story"><div class="story-index">01 / AI &amp; AUTOMATION</div><div class="story-content"><h3>When document reviews take too long</h3><p>Comparing technical documents by hand is slow and easy to get wrong. I built an AI-assisted comparison and validation tool using OpenAI APIs, React, and backend services to help surface differences automatically.</p><p class="story-detail"><span class="story-highlight">97% comparison accuracy</span> · less time spent on manual validation</p></div></article>
+            <article class="story"><div class="story-index">02 / BACKEND</div><div class="story-content"><h3>Invoices, minus the wait</h3><p>I developed a Java and Spring Boot reporting platform for invoice generation, then worked on the application and workflows to reduce processing time.</p><p class="story-detail"><span class="story-highlight">30% less time</span> to generate invoices</p></div></article>
+            <article class="story"><div class="story-index">03 / CLOUD</div><div class="story-content"><h3>Getting work out of the queue</h3><p>AS400 queue-based processing was holding up workflows. I designed AWS Step Functions flows for parallel processing so the system could scale without depending on that queue.</p><p class="story-detail">AWS Step Functions · distributed processing</p></div></article>
+            <article class="story"><div class="story-index">04 / DELIVERY</div><div class="story-content"><h3>A smoother road to production</h3><p>I automated AWS infrastructure with Terraform and Chef, maintained Jenkins pipelines, and implemented CDN-based delivery so files could reach clients more quickly.</p><p class="story-detail"><span class="story-highlight">40% lower</span> download latency</p></div></article>
+          </div>
+          <p class="work-outro">For the things I can share publicly, <a class="text-link" href="https://github.com/VickeyMandal" target="_blank" rel="noopener noreferrer">take a look at my GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></p>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills" aria-labelledby="skills-title">
+        <div class="container section-layout">
+          <div class="section-label"><span>04</span> / MY TOOLKIT</div>
+          <div class="section-body">
+            <h2 id="skills-title">Tools I reach <em>for.</em></h2>
+            <p class="section-intro">A snapshot of what I’ve used across backend, cloud, frontend, and automation work.</p>
+            <dl class="skills-list">
+              <div><dt>Languages &amp; backend</dt><dd>Java, Python, C++, SQL, Spring Boot, REST APIs, distributed systems</dd></div>
+              <div><dt>Cloud &amp; delivery</dt><dd>AWS (EC2, S3, Lambda, RDS, Step Functions, EKS), Docker, Terraform, Chef, Jenkins, CI/CD</dd></div>
+              <div><dt>Frontend &amp; data</dt><dd>React.js, Material UI, Tailwind CSS, MySQL, Oracle</dd></div>
+              <div><dt>AI &amp; everyday tools</dt><dd>OpenAI APIs, prompt engineering, AI-powered developer tools, Git, GitHub, GitLab</dd></div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-inner">
+          <p class="section-label"><span>05</span> / SAY HELLO</p>
+          <h2 id="contact-title">Have something on <em>your mind?</em></h2>
+          <p>Whether it’s an interesting engineering problem, an idea, or just a conversation, my inbox is open.</p>
+          <a class="contact-link" href="mailto:mandalvickey@gmail.com">mandalvickey@gmail.com <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-inner"><a class="wordmark" href="#home" aria-label="Back to top">bappaditya<span>.</span></a><p>© <span id="year">2026</span> Bappaditya Mandal · Made with care.</p><div class="footer-links"><a href="https://github.com/VickeyMandal" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in a new tab)</span></a><a href="https://www.linkedin.com/in/bappaditya-mandal" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a><a href="mailto:mandalvickey@gmail.com">Email</a></div></div></footer>
+  </body>
 </html>
